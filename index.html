@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Skills</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Pacifico&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#section_hero">Home</a></li>
+        <li><a class="nav__link" href="#section_skills">My Skills</a></li>
+        <li><a class="nav__link" href="#section_contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="section_hero" class="section section--hero">
+      <div class="section__content">
+        <h1 class="section__title section__title--hero">Hi, I'm Casey👋</h1>
+        <p class="section__tagline">Kinda weird but thats okay!</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="section_skills" class="section section--skills">
+      <div class="section__content">
+        <div class="skills__image">
+          <img class="strand" src="img/strand.jpg" alt="Me at work" />
+        </div>
+        <div class="skills__text">
+          <h2 class="section__subtitle">About Me 💻</h2>
+          <p>I work at a beach restaurant. I like programming but sometimes it can stress me out so much.<br>
+            I work quite a lot for my age, but in the end it will all be worth it. <br>
+            I am currently learning a lot of programming languages but I am also trying to learn how to make cocktails and cook food <br>
+            Because maybe one day I will own my own restaurant. <br>
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="section_contact" class="section section--contact">
+      <div class="section__content">
+        <h2 class="section__subtitle">Say Hello ✉️</h2>
+        <form class="form" method="POST" action="mailto:your@email.com" enctype="text/plain">
+          <input type="hidden" name="send_to_mail" value="your@email.com">
+          <input class="form__input" type="text" name="name" placeholder="Your Name" required />
+          <input class="form__input" type="text" name="email" placeholder="Your Email" required />
+          <textarea class="form__textarea" name="message" placeholder="Your Message" required></textarea>
+          <button class="form__button" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Made with ❤️ by Casey &copy; 2025</p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
